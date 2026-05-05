@@ -50,5 +50,10 @@ pipeline {
                 echo "Tool: AWS CLI (deploying to AWS EC2 production instance)"
             }
         }
+        stage("Complete") {
+            steps {
+                echo "Complete"
+            }
+        }
     }
 }
