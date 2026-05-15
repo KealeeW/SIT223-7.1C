@@ -53,6 +53,7 @@ pipeline {
         stage("Complete") {
             steps {
                 echo "Complete"
+                echo "Complete"
             }
         }
     }
